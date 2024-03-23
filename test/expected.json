@@ -1,0 +1,15 @@
+{
+  "foo": "bar",
+  "quoted": "this was quoted",
+  "quoted2": "\"this was double quoted\"",
+  "booleans": [
+    true,
+    false
+  ],
+  "array": [
+    true,
+    "quoted",
+    "string",
+    "5"
+  ]
+}

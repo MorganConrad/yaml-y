@@ -1,0 +1,7 @@
+foo : bar
+  # comment line ignored  there's also an empty line following that gets ignored
+
+quoted : "this was quoted"
+quoted2 : ""this was double quoted""
+booleans : [true, false]
+array : [ true, "quoted", string, 5]

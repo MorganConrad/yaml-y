@@ -1,0 +1,31 @@
+{
+  "name": "yaml-y",
+  "version": "0.1.0",
+  "description": "A limited YAML parser",
+  "main": "yaml-y.js",
+  "type": "module",
+  "scripts": {
+    "test": "nyc --reporter=lcov tape test/test.cjs",
+    "coverage": "nyc --reporter=text-lcov report | coveralls"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MorganConrad/yaml-y.git"
+  },
+  "keywords": [
+    "yaml",
+    "parser"
+  ],
+  "devDependencies": {
+    "coveralls": "^3.1.1",
+    "nyc": "^15.1.0",
+    "tape": "^5.3"
+  },
+  "files": [],
+  "author": "Morgan Conrad <flyingspaniel@gmail.com> (http://morganconrad.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MorganConrad/yaml-y/issues"
+  },
+  "homepage": "https://github.com/MorganConrad/yaml-y#readme"
+}
